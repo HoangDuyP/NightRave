@@ -122,6 +122,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &75769718 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6128399225185462233, guid: add38d98db7e98b46a8e988397ab3afa,
+    type: 3}
+  m_PrefabInstance: {fileID: 4081073295138263361}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &449775014
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,8 +387,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 2133669609}
-  m_Follow: {fileID: 2133669609}
+  m_LookAt: {fileID: 75769718}
+  m_Follow: {fileID: 75769718}
   m_Lens:
     FieldOfView: 60.000004
     OrthographicSize: 5
@@ -642,7 +648,7 @@ MonoBehaviour:
   CameraRadius: 0.2
   DampingIntoCollision: 0
   DampingFromCollision: 2
---- !u!1001 &2133669608
+--- !u!1001 &4081073295138263361
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -710,12 +716,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: add38d98db7e98b46a8e988397ab3afa, type: 3}
---- !u!4 &2133669609 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6128399225185462233, guid: add38d98db7e98b46a8e988397ab3afa,
-    type: 3}
-  m_PrefabInstance: {fileID: 2133669608}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -723,5 +723,5 @@ SceneRoots:
   - {fileID: 1258150603}
   - {fileID: 449775016}
   - {fileID: 543119864}
+  - {fileID: 4081073295138263361}
   - {fileID: 1184388346}
-  - {fileID: 2133669608}
